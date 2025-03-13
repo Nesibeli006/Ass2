@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.proxy.SendPushSms;
+import org.example.service.RentingBookServise;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,14 +10,17 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "org.example")
 public class ProjectConfig {
 
-    @Bean
-    @org.springframework.context.annotation.Lazy
-    public Lazy lazy() {
-        return new Lazy();
-    }
+//    @Bean
+//    public SendPushSms sendPushSms() {
+//        return new SendPushSms();
+//    }
+//
+//
+//    @Bean
+//    @org.springframework.context.annotation.Lazy
+//    public RentingBookServise rentingBookServise() {
+//        return new RentingBookServise();
+//    }
 
-    @Bean
-    public Eager eager() {
-        return new Eager();
-    }
+
 }

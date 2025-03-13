@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        Lazy lazy = context.getBean( Lazy.class);
+//        RentingBookServise rentingBookServise = context.getBean(RentingBookServise.class);
 
         RentingBook rentingBook = new RentingBook();
         rentingBook.setAuthor("James Bond");

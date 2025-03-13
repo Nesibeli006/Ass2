@@ -12,4 +12,8 @@ public class SendPushSms implements SmsReaders {
     public  void sendSms(RentingBook rentingBook){
         System.out.println("Sending push SMS to - " + rentingBook.getReader());
     }
+
+//    public SendPushSms() {
+//        System.out.println("Start rend a book ");
+//    }
 }

@@ -30,6 +30,9 @@ public class RentingBookServise {
         rentingBookRepository.storeRenting(rentingBook);
         smsReaders.sendSms(rentingBook);
     }
+//    public RentingBookServise (){
+//        System.out.println("Have a good day");
+//    }
 
 
 }
